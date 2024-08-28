@@ -1,0 +1,17 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+let content =(
+  <div>
+    <h2> Welcome ..... </h2>
+  </div>
+)
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    {content}
+  </React.StrictMode>
+);
+
+
